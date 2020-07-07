@@ -25,13 +25,10 @@ a {
     text-decoration:none;
 }
 
-li:hover {
-    background-color:#009900;
-}
 
-li a:active , li a:visited {
-    background-color:#009900;
-}
+#navig li a:hover, #navig li a:focus, #navig li a:active {
+    background: #009900;
+  }
 
 footer a {
     color: #0000FF;
