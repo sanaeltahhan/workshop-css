@@ -11,19 +11,20 @@ h2 {
     color: #4BB5C1;
 }
 
-li {
+#navig li  {
     display: inline;
-    background-color: #C03000;
-    padding: 10px;
-    border: 1px solid;
-    border-width: 2px;
-    border-color: #660000;
 }
 
-a {
-    color: white;
-    text-decoration:none;
+#navig li a{
+    padding: 5px 20px ;
+    background: #CC0000 ;
+    color: #FFFFFF ;
+    border: 1px solid #660000 ;
+    text-align: center ;
+    text-decoration: none ;
 }
+
+
 
 
 #navig li a:hover, #navig li a:focus, #navig li a:active {
